@@ -2,7 +2,7 @@
 
 ## Frontend Technologies
 
-### Next.js 14 (React Framework)
+### Next.js 15 (React Framework)
 
 **Purpose**: Full-stack React framework providing both frontend and backend capabilities
 
@@ -103,9 +103,29 @@
 
 ### Linting & Formatting
 
-- **ESLint**: Code quality and error prevention
-- **Prettier**: Consistent code formatting
-- **Next.js Built-in Config**: Optimized configuration for Next.js projects
+#### ESLint
+**Purpose**: Code quality and error prevention
+**Configuration**: Next.js built-in config with TypeScript support
+**Features**: 
+- Catches potential bugs and code issues
+- Enforces consistent coding patterns
+- Integrates with Prettier for formatting rules
+
+#### Prettier
+**Purpose**: Automatic code formatting for consistency
+**Configuration**: Custom `.prettierrc` optimized for React/TypeScript
+**Features**:
+- No semicolons, single quotes, 2-space indentation
+- 80-character line length for readability
+- Tailwind CSS class sorting via plugin
+- Format on save enabled in VS Code
+- Ignores build artifacts and node_modules
+
+#### Integration Benefits
+- **Consistent Code Style**: All team members write code the same way
+- **Reduced Code Reviews**: Less time spent on formatting discussions
+- **Developer Experience**: Automatic formatting reduces mental overhead
+- **Quality Assurance**: ESLint catches issues before runtime
 
 ## Testing Framework (Phase 3)
 

@@ -6,19 +6,47 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Development Commands
+
+```bash
+# Development
+npm run dev          # Start development server
+npm run build        # Build for production
+npm run start        # Start production server
+
+# Code Quality
+npm run lint         # Run ESLint
+npm run lint:fix     # Run ESLint with auto-fix
+npm run format       # Format all files with Prettier
+npm run format:check # Check if files are formatted correctly
+
+# Testing
+npm run test:ping    # Test network connectivity
+```
+
+## Code Standards
+
+This project uses **Prettier** and **ESLint** for consistent code formatting and quality:
+
+- **Prettier** handles code formatting automatically
+- **ESLint** catches potential issues and enforces best practices
+- **Tailwind CSS Plugin** sorts class names consistently
+- **Format on save** is enabled in VS Code
+
+### Formatting Rules
+
+- No semicolons
+- Single quotes
+- 2-space indentation
+- 80 character line length
+- Trailing commas where valid
+- Automatic Tailwind class sorting
 
 ## Learn More
 
