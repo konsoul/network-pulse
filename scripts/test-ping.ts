@@ -6,7 +6,7 @@ async function testPing() {
 
   try {
     const result = await pingDevice('8.8.8.8', 3)
-    
+
     console.log('\n=== Final Result ===')
     if (result) {
       console.log('Success:', result.success)

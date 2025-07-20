@@ -38,6 +38,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## 📚 Project Documentation
 
 ### Core Documentation
+
 - [Project Overview](./docs/01-project-overview.md) - Project goals, objectives, and biblical foundation
 - [Tech Stack Guide](./docs/02-tech-stack.md) - Technology choices and implementation details
 - [Development Progress](./docs/03-development-progress.md) - Current status and session tracking
@@ -45,11 +46,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - [Setup Guide](./docs/setup.md) - Development environment setup instructions
 
 ### Quick Links
+
 - **Getting Started**: See [Setup Guide](./docs/setup.md) for development environment setup
 - **Network Tools**: See [Network Diagnostic Tools](./docs/04-network-diagnostic-tools.md) for real router integration strategy
 - **Current Progress**: See [Development Progress](./docs/03-development-progress.md) for latest status and real network data implementation
 
 ### Project Structure
+
 ```
 network-pulse/
 ├── app/                    # Next.js App Router
@@ -61,7 +64,9 @@ network-pulse/
 ```
 
 ### Network Integration
+
 This application integrates directly with your personal router and network devices:
+
 - **Primary Router**: 192.168.0.1 (tested and responding)
 - **Network Tools**: macOS ping, traceroute, ARP, netstat utilities
 - **Device Discovery**: Real-time network scanning and device identification

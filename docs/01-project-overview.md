@@ -1,14 +1,17 @@
 # Project Overview
 
 ## Application Name
+
 Network Pulse
 
 ## Purpose Statement
+
 Network Pulse is a comprehensive network monitoring and analysis application designed to provide real-time insights into network performance, connectivity, and health metrics. The application serves as a centralized dashboard for network administrators and IT professionals to monitor, diagnose, and optimize network infrastructure.
 
 ## Core Objectives
 
 ### Primary Goals
+
 1. **Real-time Monitoring**: Provide live network performance metrics and status updates
 2. **Historical Analysis**: Track network performance trends over time
 3. **Alert Management**: Notify users of network issues and anomalies
@@ -16,6 +19,7 @@ Network Pulse is a comprehensive network monitoring and analysis application des
 5. **Scalability**: Support monitoring of networks of various sizes and complexities
 
 ### Success Metrics
+
 - Response time for displaying network status updates (target: < 2 seconds)
 - User engagement with monitoring dashboards
 - Reduction in network downtime through proactive monitoring
@@ -24,11 +28,13 @@ Network Pulse is a comprehensive network monitoring and analysis application des
 ## Target Audience
 
 ### Primary Users
+
 - **Network Administrators**: Daily monitoring and management of network infrastructure
 - **IT Support Teams**: Troubleshooting network issues and performance problems
 - **System Engineers**: Long-term network planning and optimization
 
 ### User Needs
+
 - Quick identification of network issues
 - Historical data for trend analysis
 - Customizable monitoring dashboards
@@ -38,6 +44,7 @@ Network Pulse is a comprehensive network monitoring and analysis application des
 ## Key Features (High-Level)
 
 ### Core Features
+
 1. **Dashboard Interface**: Central hub showing network overview and key metrics
 2. **Device Monitoring**: Track individual network devices and their status
 3. **Performance Metrics**: Display bandwidth usage, latency, packet loss, etc.
@@ -46,6 +53,7 @@ Network Pulse is a comprehensive network monitoring and analysis application des
 6. **User Management**: Role-based access control for different user types
 
 ### Future Enhancements
+
 - Mobile application companion
 - Advanced analytics and machine learning insights
 - Integration with popular network management tools
@@ -55,6 +63,7 @@ Network Pulse is a comprehensive network monitoring and analysis application des
 ## Project Scope
 
 ### In Scope
+
 - Web-based responsive application
 - Real-time network monitoring of personal router (192.168.0.1)
 - Live device discovery and status monitoring
@@ -63,6 +72,7 @@ Network Pulse is a comprehensive network monitoring and analysis application des
 - API for real-time network data integration
 
 ### Out of Scope (Initial Version)
+
 - Native mobile applications
 - Advanced machine learning features
 - Third-party tool integrations (beyond basic APIs)
@@ -72,12 +82,14 @@ Network Pulse is a comprehensive network monitoring and analysis application des
 ## Project Constraints
 
 ### Technical Constraints
+
 - Must be web-based and responsive
 - Should work in modern browsers (Chrome, Firefox, Safari, Edge)
 - Performance requirements for real-time data updates
 - Security requirements for network data handling
 
 ### Business Constraints
+
 - Development timeline considerations
 - Learning objectives (focus on Next.js and modern React patterns)
 - Resource limitations (solo developer project)
@@ -85,18 +97,21 @@ Network Pulse is a comprehensive network monitoring and analysis application des
 ## Success Criteria
 
 ### Technical Success
+
 - Application loads within 3 seconds on standard broadband connections
 - Real-time updates function reliably
 - Responsive design works on desktop, tablet, and mobile
 - Clean, maintainable and well-documented code
 
 ### Learning Success
+
 - Deep understanding of Next.js full-stack capabilities
 - Proficiency with modern React patterns and hooks
 - Experience with real-time data handling
 - Understanding of responsive design with Tailwind CSS
 
 ### User Experience Success
+
 - Intuitive navigation and information architecture
 - Clear visual hierarchy and data presentation
 - Accessible design following WCAG guidelines
