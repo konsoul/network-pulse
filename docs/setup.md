@@ -8,7 +8,7 @@
 
 ### 1. Initialize Next.js Project
 ```bash
-npx create-next-app@latest . --tailwind --eslint --app
+npx create-next-app@latest . --tailwind --eslint --app --typescript
 ```
 
 ### 2. Install Additional Dependencies
@@ -17,7 +17,7 @@ npm install @heroicons/react
 ```
 
 ### 3. Clean Up Initial Files
-- Remove default content from `app/page.js`
+- Remove default content from `app/page.tsx`
 - Update `app/globals.css` if needed
 - Configure Tailwind if needed
 
@@ -34,8 +34,8 @@ npm run dev
 ## Project Structure
 ```
 ├── app/
-│   ├── layout.js      # Root layout
-│   ├── page.js        # Home page
+│   ├── layout.tsx     # Root layout
+│   ├── page.tsx       # Home page
 │   ├── globals.css    # Global styles
 │   └── api/           # API routes
 ├── components/        # Reusable components
