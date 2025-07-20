@@ -58,9 +58,9 @@
 
 ## Database & Data Storage
 
-### Initial Phase: JSON Files / Local Storage
-**Purpose**: Simple data persistence for development and prototyping
-**Use Cases**: Configuration data, mock network data, user preferences
+### Initial Phase: Real-time Network Data Collection
+**Purpose**: Direct integration with personal router and network devices
+**Use Cases**: Live network monitoring, router status, device discovery, real-time metrics
 
 ### Production Phase: PostgreSQL (Future)
 **Purpose**: Robust relational database for production data
@@ -129,9 +129,10 @@
 - **Sentry**: Error tracking and performance monitoring
 
 ### Network Monitoring Integration
-- **Custom APIs**: Integration with network monitoring tools
-- **SNMP Libraries**: For direct device communication
-- **Ping/Traceroute**: Network connectivity testing
+- **macOS Network Tools**: Direct integration with ping, traceroute, ARP, netstat
+- **Personal Router Monitoring**: Real-time communication with 192.168.0.1
+- **Device Discovery**: Live network scanning and device identification
+- **Real-time Metrics**: Continuous monitoring of network performance
 
 ## Design & UI Tools
 

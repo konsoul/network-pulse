@@ -56,11 +56,11 @@ Network Pulse is a comprehensive network monitoring and analysis application des
 
 ### In Scope
 - Web-based responsive application
-- Real-time network monitoring capabilities
-- User authentication and authorization
-- Dashboard customization
-- Basic reporting functionality
-- API for data integration
+- Real-time network monitoring of personal router (192.168.0.1)
+- Live device discovery and status monitoring
+- Network performance metrics (ping, latency, packet loss)
+- Dashboard customization for network insights
+- API for real-time network data integration
 
 ### Out of Scope (Initial Version)
 - Native mobile applications
